@@ -1,14 +1,17 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import logo from "./logo.svg";
+import "./App.css";
+import component from "./component";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
+        <component />
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Edit <code>src/App.js</code> and save to reload.<br/>
+          This is sparta !!
         </p>
         <a
           className="App-link"
